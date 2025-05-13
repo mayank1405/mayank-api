@@ -45,6 +45,19 @@ GET http://127.0.0.1:8000/details/branches/CANARA%20BANK
 
 GET http://127.0.0.1:8000/details/branchdetails/HDFC0001347
 
+
+BANK LIST
+![image](https://github.com/user-attachments/assets/d7e62e36-f2ec-4cb2-8cfb-4724b19349a2)
+
+BRANCHES
+![image](https://github.com/user-attachments/assets/6a8f61ed-4f34-4899-82c9-494278ae03d8)
+
+BRANCH DETAILS
+![image](https://github.com/user-attachments/assets/5e8f7576-2ad4-4c07-8519-433653298753)
+
+
+
+
 ⚠️ Challenges Faced:
 The given database dump was encoded in WIN1252 format. Initially while importing the dump there was always encoding error. 
 This took me a lot of time to realise that we could instead use our own database in WIN1252 encoding instead of the default UTF-8 encoding.
@@ -58,7 +71,12 @@ The project includes basic testing for invalid inputs:
 
 Nonexistent IFSC codes
 
+![image](https://github.com/user-attachments/assets/c09c9dbb-eb4b-4036-ac1d-8af938b4e4d4)
+
+
 Invalid or misspelled bank names
+![image](https://github.com/user-attachments/assets/ceed148c-c6c7-4e63-a324-4b54da46ebad)
+
 
 These return appropriate error messages.
 📌 Note
